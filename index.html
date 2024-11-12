@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+.buttonizer {
+    right: 2%;
+    bottom: 20%;
+    display: flex;
+    z-index: 99999;
+    position: fixed;
+    transition: all 250ms ease-in-out 0s;
+    visibility: hidden;
+    flex-direction: column-reverse;
+}
+.buttonizer .fab.fa-whatsapp {
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    font-size: 28px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: all 0.2s ease-out 0s;
+}
+.buttonizer #buttonizer-button-0-0-10-label{
+	  top: 50%;
+    color: rgb(255, 255, 255);
+    right: 51px;
+    margin-right: 15px;
+    padding: 5px 15px;
+    z-index: 1;
+    position: absolute;
+    font-size: 12px;
+    transform: translateY(-50%);
+    background: rgb(37, 211, 102);
+    box-shadow: none;
+    text-align: end;
+    transition: all 0.2s ease-out 0s;
+    font-family: unset;
+    line-height: initial;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+.buttonizer a.buttonizer-button {
+	  width: 56px;
+    height: 56px;
+	  color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0px auto 10px;
+    display: block;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 1px;
+    text-align: center;
+    transition: all 250ms ease-in-out 0s;
+    visibility: visible;
+    user-select: none;
+    border-radius: 50%;
+    background-size: cover;
+    text-decoration: none;
+    background-color: rgb(37, 211, 102);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    outline: none !important;
+    max-width: none !important;
+}
+
+</style>
+
+</head>
+<body>
+    
+<div class="buttonizer"><a role="button" class="buttonizer-button" target="_blank" href="https://wa.me/+8801722987160?text=Hi!%20I%20have%20a%20question%20about..." aria-describedby="buttonizer-button-0-0-10-label"><i aria-hidden="true" class="fab fa-whatsapp buttonizer-icon-0-0-11"></i><span class="buttonizer-label buttonizer-label-0-0-13" id="buttonizer-button-0-0-10-label">Let's talk &amp; chat!</span></a></div>
+
+</body>
+</html>
